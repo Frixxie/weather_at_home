@@ -3,7 +3,7 @@ import requests
 from time import time
 
 if __name__ == '__main__':
-    f = open('stations.json')
+    f = open('~/projects/weather_at_home/stations.json')
     stations = json.load(f)
     time = int(time())
     for station in stations:
