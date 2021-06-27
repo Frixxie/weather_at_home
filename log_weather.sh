@@ -1,3 +1,3 @@
 #!/bin/sh
 
-python3 src/client.py >> log.csv
+python3 ~/projects/weather_at_home/src/client.py >> ~/projects/weather_at_home/log.csv
