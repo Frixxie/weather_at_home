@@ -1,0 +1,3 @@
+RPi.GPIO
+dht11
+flask
