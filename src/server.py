@@ -1,3 +1,6 @@
+"""
+This flask server must be run on the stations connected to the servers.
+"""
 from flask import Flask, jsonify
 import reader
 
@@ -12,4 +15,5 @@ def read():
     })
 
 if __name__ == '__main__':
+    # host = 0.0.0.0 to be accesable on the local network
     app.run(debug=True, host="0.0.0.0")

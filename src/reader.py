@@ -10,11 +10,9 @@ GPIO.cleanup()
 dht11 = DHT11(pin = 14)
 
 def read_from_sensor():
-    successfull_read = False
-    while successfull_read is False:
+    while True:
         res = dht11.read()
         if res.is_valid():
-            successfull_read = True
             return (res.temperature, res.humidity)
 
 
