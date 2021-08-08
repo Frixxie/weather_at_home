@@ -7,7 +7,8 @@ GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
 # will be using pin 14 to send and recieve data
-dht11 = DHT11(pin = 14)
+dht11 = DHT11(pin=14)
+
 
 def read_from_sensor():
     while True:
