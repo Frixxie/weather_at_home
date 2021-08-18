@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+GPIO	/home/fredrik/projects/weather_at_home/src/reader.py	/^import RPi.GPIO as GPIO$/;"	I
+app	/home/fredrik/projects/weather_at_home/src/server.py	/^app = Flask(__name__)$/;"	v
+dht11	/home/fredrik/projects/weather_at_home/src/reader.py	/^dht11 = DHT11(pin=14)$/;"	v
+get_data	/home/fredrik/projects/weather_at_home/src/client.py	/^def get_data(stations_file):$/;"	f
+read	/home/fredrik/projects/weather_at_home/src/server.py	/^def read():$/;"	f
+read_from_sensor	/home/fredrik/projects/weather_at_home/src/reader.py	/^def read_from_sensor():$/;"	f
